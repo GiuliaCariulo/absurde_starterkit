@@ -38,23 +38,25 @@ button.menu-burger {
 
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   gap: 2.25rem;
-  text-align: right;
 }
 
+.menu-mobile h2,
 .menu-mobile a {
-  font-size: 1.25rem;
-  margin-right: 5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   text-decoration: none;
 }
 
 .menu-mobile li {
-  list-style-type: none;
-  padding: 0.7rem 0;
+  width: 70vw;
+  padding: 0.7rem;
   border-bottom: 0.5px solid var(--color-black);
+  list-style-type: none;
 }
 
-// // is-active –––––––––––––––––––––––––––––––––––––––
+// // is-active
 
 .menu-mobile.is-active {
   opacity: 1;

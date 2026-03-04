@@ -13,6 +13,25 @@ video {
   display: block;
 }
 
-body {
-  background: purple;
+@font-face {
+  font-family: "Waldenburg";
+  src:
+    url("../fonts/KMRWaldenburg-Condensed.woff2") format("woff2"),
+    url("../fonts/KMRWaldenburg-CondensedLight.woff2") format("woff2"),
+    url("../fonts/KMRWaldenburg-CondensedMedium.woff2") format("woff2");
+}
+
+html {
+  font-family: "Waldenburg";
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  display: none;
 }

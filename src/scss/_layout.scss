@@ -1,15 +1,15 @@
 :root {
   --color-black: #1e1c21;
   --color-red: #bf1523;
-  --color-beige: #e6ded1;
-}
-
-body {
-  background: var(--color-beige);
-  margin: 0 15px;
+  --color-beige: #fffdf9;
 }
 
 html {
-  background-color: rgb(226, 255, 255);
-  // background temporaire
+  background: var(--color-beige);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  padding: 15px 15px;
 }

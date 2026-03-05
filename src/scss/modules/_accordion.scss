@@ -1,6 +1,27 @@
-.accordion-item-open {
+.accordion {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   padding: 3rem 0;
+}
+
+.accordion-item {
+  height: 0;
+  overflow: hidden;
+}
+
+.accordion-item-open {
+  height: auto;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.accordion-item-open svg path {
+  width: 1.5rem;
+}
+
+.accordion-item-open svg {
+  width: 1.5rem;
 }

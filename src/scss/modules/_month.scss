@@ -1,4 +1,18 @@
-.month-hero {
+.month-hero a {
   padding: 6rem 2rem 2rem;
   background-color: var(--color-substitution);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.month-hero div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.month-hero h2 {
+  font-size: 2rem;
 }

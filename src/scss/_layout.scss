@@ -1,5 +1,6 @@
 :root {
   --color-black: #1e1c21;
+  --color-substitution: #939393;
   --color-red: #bf1523;
   --color-beige: #fffdf9;
 }
@@ -12,4 +13,8 @@ header {
   width: 100%;
   position: fixed;
   padding: 15px 15px;
+}
+
+main {
+  padding-top: 5.5rem;
 }

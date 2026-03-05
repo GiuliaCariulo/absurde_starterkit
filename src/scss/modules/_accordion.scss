@@ -23,11 +23,7 @@
   gap: 0.5rem;
 }
 
-.accordion-item-open svg path {
-  width: 1.5rem;
-}
-
 .accordion-item-open svg {
-  display: block;
+  flex-shrink: 0;
   width: 1.5rem;
 }

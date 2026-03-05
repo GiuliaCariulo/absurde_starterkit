@@ -12,6 +12,11 @@
 .accordion-item-open {
   height: auto;
   margin-top: 0.5rem;
+}
+
+.accordion-item a {
+  font-size: 1rem;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -23,5 +28,6 @@
 }
 
 .accordion-item-open svg {
+  display: block;
   width: 1.5rem;
 }

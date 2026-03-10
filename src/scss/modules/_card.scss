@@ -1,5 +1,11 @@
+article.card {
+  padding: 1rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-black);
+}
+
 .card {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -29,22 +35,16 @@
 }
 
 .card-main {
-  height: 5rem;
-  overflow: hidden;
   display: flex;
-  gap: 0.5rem;
+  flex-direction: row-reverse;
+  gap: 1rem;
 }
 
 .card-picture {
   position: relative;
+  opacity: 0.8;
   flex-shrink: 0;
   width: 8rem;
-}
-
-.card-picture img {
-  width: 100%;
-  height: auto;
-  opacity: 0.8;
 }
 
 .card-picture svg {
@@ -54,18 +54,20 @@
 }
 
 .card-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 0.5rem;
   align-items: flex-end;
 }
 
-// MOBILE CARD____________________________________________
-
-article.card-mobile {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--color-black);
+.card-content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
+
+// MOBILE CARD____________________________________________
 
 // DESKTOP CARD____________________________________________

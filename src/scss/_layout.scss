@@ -1,12 +1,12 @@
 :root {
   --color-black: #1e1c21;
-  --color-substitution: #939393;
+  --color-gray: #c0c0c0;
   --color-red: #bf1523;
-  --color-beige: #fffdf9;
+  --color-white: #fffdf9;
 }
 
 html {
-  background: var(--color-beige);
+  background: var(--color-white);
 }
 
 header {

@@ -1,7 +1,11 @@
 .btn {
   display: inline-block;
-  color: var(--color-white);
-  text-decoration: none;
+  width: fit-content;
   padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid var(--color-black);
+}
+.btn-primary {
+  color: var(--color-white);
   background-color: var(--color-black);
 }

@@ -13,14 +13,6 @@ video {
   display: block;
 }
 
-@font-face {
-  font-family: "Waldenburg";
-  src:
-    url("../fonts/KMRWaldenburg-Condensed.woff2") format("woff2"),
-    url("../fonts/KMRWaldenburg-CondensedLight.woff2") format("woff2"),
-    url("../fonts/KMRWaldenburg-CondensedMedium.woff2") format("woff2");
-}
-
 html {
   font-family: "Waldenburg";
   letter-spacing: 4%;
@@ -38,5 +30,5 @@ h1 {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }

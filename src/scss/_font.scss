@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Waldenburg";
+  src:
+    url("../fonts/KMRWaldenburg-Condensed.woff2") format("woff2"),
+    url("../fonts/KMRWaldenburg-CondensedLight.woff2") format("woff2"),
+    url("../fonts/KMRWaldenburg-CondensedMedium.woff2") format("woff2");
+}
+
+section {
+  padding: 0 1rem;
+}

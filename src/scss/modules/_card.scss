@@ -1,6 +1,5 @@
 article.card {
   padding: 1rem 0.75rem;
-  border-radius: 0.5rem;
   border: 1px solid var(--color-black);
 }
 
@@ -41,7 +40,7 @@ article.card {
   gap: 0.5rem;
 }
 
-.card-main {
+.card-container {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -90,7 +89,7 @@ article.card {
   .card {
     flex: 0 0 calc(100% / 3 - 10px);
   }
-  .card-main {
+  .card-container {
     flex-direction: column;
   }
   .card-picture {

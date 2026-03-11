@@ -29,7 +29,7 @@ button.menu-burger {
   bottom: 0;
   left: 0;
   padding: 7rem 0;
-  color: var(--color-black);
+  color: var(--color-white);
   background-color: var(--color-red);
   opacity: 0;
   pointer-events: none;
@@ -71,7 +71,7 @@ button.menu-burger {
 
 .menu-burger.is-active div:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background-color: var(--color-black);
+  background-color: var(--color-white);
 }
 
 .menu-burger.is-active div:nth-child(2) {
@@ -82,5 +82,5 @@ button.menu-burger {
 .menu-burger.is-active div:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 
-  background-color: var(--color-black);
+  background-color: var(--color-white);
 }

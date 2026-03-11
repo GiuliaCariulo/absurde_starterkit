@@ -9,3 +9,10 @@
   color: var(--color-white);
   background-color: var(--color-black);
 }
+
+.btn-secondary {
+  font-weight: bold;
+  color: var(--color-red);
+  background-color: var(--color-white);
+  border: var(--color-red);
+}

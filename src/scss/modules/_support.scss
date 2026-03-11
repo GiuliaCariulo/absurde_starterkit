@@ -1,9 +1,53 @@
-.support-picture img {
-  width: 100%;
+.support-title-desktop {
+  display: none;
+}
+
+.support-picture {
+  min-height: 16rem;
+  width: auto;
+  background-image: url(../img/example.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.support-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .support-btn {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.support-btn .btn {
+  width: 100%;
+  text-align: center;
+}
+
+// DESKTOP SUPPORT
+
+@media (min-width: 768px) {
+  .support {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .support-picture {
+    min-height: auto;
+    width: 50rem;
+  }
+
+  .support-title-mobile {
+    display: none;
+  }
+
+  .support-title-desktop {
+    display: block;
+  }
 }

@@ -3,7 +3,7 @@ section.month-hero {
 }
 
 .month-hero a {
-  padding: 6rem 2rem 2rem;
+  padding: 6rem 1rem 2rem;
   background-image: url("../img/example.jpg");
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,12 @@ section.month-hero {
   font-size: 2rem;
   margin: 0;
   text-transform: initial;
+}
+
+.month-hero h2,
+.month-hero p {
   padding: 0.5rem 1rem;
   color: var(--color-white);
-  background-color: var(--color-black);
+  background-color: var(--color-red);
+  width: fit-content;
 }

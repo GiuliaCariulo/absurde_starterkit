@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact .btn {
+  width: 100%;
+  max-width: 768px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    width: 768px;
+  }
+}

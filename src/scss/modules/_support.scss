@@ -26,6 +26,7 @@
 
 .support-btn .btn {
   width: 100%;
+  flex-shrink: 0;
   text-align: center;
 }
 
@@ -40,7 +41,7 @@
 
   .support-picture {
     min-height: auto;
-    width: 50rem;
+    width: 70rem;
   }
 
   .support-title-mobile {
@@ -49,5 +50,12 @@
 
   .support-title-desktop {
     display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .support-picture {
+    min-height: auto;
+    width: 80rem;
   }
 }

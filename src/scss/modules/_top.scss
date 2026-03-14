@@ -8,3 +8,9 @@
   width: 230px;
   height: 100%;
 }
+
+@media (min-width: 768px) {
+  .top-bar svg {
+    width: 350px;
+  }
+}

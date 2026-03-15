@@ -1,0 +1,33 @@
+.filters form {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card.hide {
+  display: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label.filter-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-black);
+}
+
+.filter-label:hover {
+  border: 2px solid var(--color-red);
+  color: var(--color-red);
+}
+
+input[type="radio"]:checked + .filter-label {
+  background: var(--color-red);
+  border: 2px solid var(--color-red);
+  color: var(--color-white);
+}

@@ -33,3 +33,28 @@ accordionHeaders.forEach(function (header) {
     }
   });
 });
+
+// Wrapper
+
+const cards = document.querySelectorAll(".card");
+const filters = document.querySelectorAll("input[name='type']");
+
+filters.forEach((filter) => {
+  filter.addEventListener("click", function () {
+    const value = filter.value;
+
+    cards.forEach((card) => {
+      const type = card.getAttribute("data-type");
+
+      if (value === "") {
+        card.classList.remove("hide");
+      } else {
+        if (type === value) {
+          card.classList.remove("hide");
+        } else {
+          card.classList.add("hide");
+        }
+      }
+    });
+  });
+});

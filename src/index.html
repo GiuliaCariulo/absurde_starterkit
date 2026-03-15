@@ -51,7 +51,7 @@
           </button>
           <div class="menu-mobile">
             <nav>
-              <ul>
+              <ul class="accordion">
                 <li class="menu-item accordion">
                   <h2>L'article du mois</h2>
                   <div class="accordion-item accordion-item-open">
@@ -142,7 +142,7 @@
       </section>
       <section class="cards-library">
         <h2>Card library</h2>
-        <article class="card">
+        <article class="card" data-type="Féminisme">
           <div class="card-infos">
             <address>Écrit par Ragekit</address>
             <time datetime="2026-02-12">12.02.26</time>
@@ -150,7 +150,7 @@
           <div class="card-container">
             <div class="card-content">
               <div>
-                <h2>Titre de l'article</h2>
+                <h2>Titre de l'article Fem</h2>
                 <p>
                   Début de l’article Viri dentium vel cum ratione cum saxo
                   dentium adeste succurrens armatos et attoniti cum extremas
@@ -320,6 +320,26 @@
         </div>
         <img id="about-youtube" src="img/example-youtube.jpeg" alt="" />
         <img id="about-instagram" src="img/example-insta.jpeg" alt="" />
+      </section>
+      <section class="filters">
+        <form>
+          <div class="filter-input">
+            <input type="radio" name="type" id="all" value="" checked />
+            <label for="all" class="filter-label">Tous</label>
+          </div>
+          <div class="filter-input">
+            <input type="radio" name="type" id="feminism" value="Féminisme" />
+            <label for="feminism" class="filter-label">Féminisme</label>
+          </div>
+          <div class="filter-input">
+            <input type="radio" name="type" id="fascisme" value="Fascisme" />
+            <label for="fascisme" class="filter-label">Fascisme</label>
+          </div>
+          <div class="filter-input">
+            <input type="radio" name="type" id="police" value="Police" />
+            <label for="police" class="filter-label">Police</label>
+          </div>
+        </form>
       </section>
     </main>
     <script src="js/main.js" type="module"></script>

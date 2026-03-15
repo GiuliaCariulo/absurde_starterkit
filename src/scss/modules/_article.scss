@@ -1,0 +1,76 @@
+.article-hero {
+  overflow: hidden;
+  height: 200px;
+}
+
+.article h1 {
+  display: block;
+  margin: 2rem 0 4rem;
+  color: var(--color-red);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.article p {
+  margin-bottom: 0.5rem;
+}
+
+p.article-quote {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: var(--color-red);
+  line-height: 100%;
+}
+
+.article .article-author span {
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+}
+
+// The grid
+
+.article-infos {
+  display: grid;
+  row-gap: 0.25rem;
+  justify-content: space-between;
+  grid-template-areas:
+    "date duration"
+    "author media-duration";
+  margin-bottom: 2rem;
+}
+
+.article-date {
+  grid-area: date;
+}
+.article-author {
+  grid-area: author;
+}
+
+.article-duration {
+  text-align: right;
+  grid-area: duration;
+}
+
+.article-media-duration {
+  text-align: right;
+  grid-area: media-duration;
+}
+
+.article-info {
+  color: var(--color-gray);
+}
+
+// DESKTOP
+
+@media (min-width: 768px) {
+  .article h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article h1 {
+    font-size: 4.5rem;
+  }
+}

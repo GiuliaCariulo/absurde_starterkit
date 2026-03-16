@@ -28,8 +28,6 @@ p.article-quote {
   text-underline-offset: 2.5px;
 }
 
-// The grid
-
 .article-infos {
   font-size: 0.9rem;
   display: flex;
@@ -41,6 +39,30 @@ p.article-quote {
 p.article-info {
   color: var(--color-gray);
   margin: 0;
+}
+
+// Podcast and book
+
+.article-infos-position-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.article-infos-position-two div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-hook {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 110%;
+}
+
+.article-infos-position-two .article-infos {
+  grid-template-rows: 1 /2;
 }
 
 // DESKTOP

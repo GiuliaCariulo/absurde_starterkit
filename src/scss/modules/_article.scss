@@ -5,9 +5,9 @@
 
 .article h1 {
   display: block;
-  margin: 2rem 0 4rem;
+  margin: 2rem 0;
   color: var(--color-red);
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 800;
   line-height: 100%;
 }
@@ -31,46 +31,28 @@ p.article-quote {
 // The grid
 
 .article-infos {
-  display: grid;
-  row-gap: 0.25rem;
-  justify-content: space-between;
-  grid-template-areas:
-    "date duration"
-    "author media-duration";
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
   margin-bottom: 2rem;
 }
 
-.article-date {
-  grid-area: date;
-}
-.article-author {
-  grid-area: author;
-}
-
-.article-duration {
-  text-align: right;
-  grid-area: duration;
-}
-
-.article-media-duration {
-  text-align: right;
-  grid-area: media-duration;
-}
-
-.article-info {
+p.article-info {
   color: var(--color-gray);
+  margin: 0;
 }
 
 // DESKTOP
 
 @media (min-width: 768px) {
   .article h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 1024px) {
   .article h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }

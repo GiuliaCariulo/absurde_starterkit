@@ -17,14 +17,14 @@ video {
 html {
   font-family: "Waldenburg";
   letter-spacing: 4%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 100%;
   color: var(--color-black);
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -35,7 +35,12 @@ h1 {
 h2 {
   font-size: 1.5rem;
   width: 100%;
-  line-height: 100%;
   text-transform: uppercase;
   margin: 1rem 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 100%;
 }

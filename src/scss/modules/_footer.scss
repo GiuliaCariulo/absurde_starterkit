@@ -1,0 +1,45 @@
+.footer {
+  color: var(--color-white);
+}
+
+footer {
+  padding: 10rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+footer section {
+  padding: 0;
+}
+
+.footer .card,
+.footer .card h2 {
+  color: var(--color-black);
+}
+
+.footer .card {
+  background-color: var(--color-white);
+}
+
+.footer-nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer li,
+.footer-nav a {
+  width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+}
+
+.footer-socials a {
+  text-underline-offset: 2.5px;
+}
+
+.footer-credit {
+  padding-top: 3rem;
+  text-align: center;
+}

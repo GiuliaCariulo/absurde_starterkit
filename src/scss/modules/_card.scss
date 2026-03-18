@@ -48,12 +48,13 @@ article.card {
 
 .card-picture {
   width: 50%;
+  height: 8rem;
   overflow: hidden;
 }
 
 .card-picture img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -78,7 +79,7 @@ article.card {
 
 // DESKTOP CARD____________________________________________
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .cards-library {
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +96,6 @@ article.card {
   .card-picture {
     order: -1;
     width: 100%;
-    height: 50%;
   }
   .card-content {
     justify-content: flex-start;

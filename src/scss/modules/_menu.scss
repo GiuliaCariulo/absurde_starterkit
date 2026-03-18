@@ -42,12 +42,12 @@ nav.menu-mobile {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 2.25rem;
+  gap: 4rem;
 }
 
 .menu-mobile h2,
 .menu-mobile a {
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   font-weight: 800;
   text-decoration: none;
 }
@@ -57,6 +57,13 @@ nav.menu-mobile {
   padding: 1.2rem;
   border-bottom: 0.5px solid var(--color-white);
   list-style-type: none;
+}
+
+li.menu-taxonomy {
+  font-family: "Waldenburg, medium";
+  text-transform: uppercase;
+  padding: 2rem 1.2rem;
+  font-size: 1rem;
 }
 
 // // is-active

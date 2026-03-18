@@ -15,10 +15,10 @@ video {
 }
 
 html {
-  font-family: "Waldenburg";
-  letter-spacing: 4%;
+  font-family: "Waldenburg, Light";
+  letter-spacing: 5%;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 140%;
   color: var(--color-black);
 }
 
@@ -42,5 +42,6 @@ h2 {
 h1,
 h2,
 h3 {
+  font-family: "Waldenburg, Medium";
   line-height: 100%;
 }

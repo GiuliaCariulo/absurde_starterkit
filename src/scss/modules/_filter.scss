@@ -22,11 +22,13 @@ label.filter-label {
 }
 
 .filter-label:hover {
+  font-family: "Waldenburg, Medium";
   border: 2px solid var(--color-red);
   color: var(--color-red);
 }
 
 input[type="radio"]:checked + .filter-label {
+  font-family: "Waldenburg, Medium";
   background: var(--color-red);
   border: 2px solid var(--color-red);
   color: var(--color-white);

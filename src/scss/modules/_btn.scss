@@ -20,7 +20,8 @@
 
 .btn:hover,
 .btn-primary:hover {
-  font-family: "Waldenburg, Medium";
+  font-family: "Waldenburg";
+  font-weight: 600;
   background-color: var(--color-red);
   color: var(--color-white);
   border-color: var(--color-red);
@@ -28,7 +29,8 @@
 }
 
 .btn-secondary:hover {
-  font-family: "Waldenburg, Medium";
+  font-family: "Waldenburg";
+  font-weight: 600;
   color: var(--color-red);
   background-color: var(--color-white);
   transform: scale(1.2);

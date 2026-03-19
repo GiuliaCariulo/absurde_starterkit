@@ -1,11 +1,13 @@
 @font-face {
-  font-family: "Waldenburg, Thin";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedThin.woff2") format("woff2");
+  font-weight: 100;
 }
 
 @font-face {
-  font-family: "Waldenburg, Light";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedLight.woff2") format("woff2");
+  font-weight: 300;
 }
 @font-face {
   font-family: "Waldenburg";
@@ -13,26 +15,31 @@
 }
 
 @font-face {
-  font-family: "Waldenburg, Book";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedBook.woff2") format("woff2");
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: "Waldenburg, Medium";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedMedium.woff2") format("woff2");
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: "Waldenburg, Bold";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedBold.woff2") format("woff2");
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: "Waldenburg, Black";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedBlack.woff2") format("woff2");
+  font-weight: 800;
 }
 
 @font-face {
-  font-family: "Waldenburg, Heavy";
+  font-family: "Waldenburg";
   src: url("../fonts/KMRWaldenburg-CondensedHeavy.woff2") format("woff2");
+  font-weight: 900;
 }

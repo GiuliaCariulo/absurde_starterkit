@@ -1,10 +1,10 @@
 section.month-hero {
-  margin: 0 -3rem;
+  margin: 0 -1rem;
 }
 
 .month-hero a {
   padding: 6rem 0 2rem;
-  background-image: url("../img/example.jpg");
+  background-image: url("../img/month_feminisme-modern.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -43,6 +43,9 @@ section.month-hero {
 @media (min-width: 1024px) {
   .month-hero a {
     padding: 18rem 0 2rem;
+  }
+  section.month-hero {
+    margin: 0 -3rem;
   }
 }
 

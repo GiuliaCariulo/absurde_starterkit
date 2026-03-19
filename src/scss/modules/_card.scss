@@ -57,9 +57,20 @@ article.card {
 }
 
 .card-picture {
+  position: relative;
   width: 50%;
   height: 8rem;
   overflow: hidden;
+}
+
+svg.card-article-type {
+  height: 1.5rem;
+  filter: drop-shadow(1 4px 4px rgb(0, 0, 0));
+  width: fit-content;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
 }
 
 .card-picture img {

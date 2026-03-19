@@ -1,6 +1,9 @@
 .article-hero {
   overflow: hidden;
-  height: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 3rem;
 }
 
 .article h1 {
@@ -10,6 +13,12 @@
   font-size: 2.25rem;
   font-weight: 800;
   line-height: 100%;
+}
+
+h1.article-taxonomy {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .article-content p {
@@ -74,6 +83,9 @@ p.article-info {
   }
   .article-infos-position-two div {
     grid-column: 1 / 3;
+  }
+  .article-hero {
+    height: 500px;
   }
 }
 
